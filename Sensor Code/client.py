@@ -17,7 +17,7 @@ def httpconnect(action):
 while True:
 	time.sleep(0.9)
 	print("LDR value: " + str(ldr.value))
-	if o\0.5 > ldr.value:
+	if 0.5 > ldr.value:
 		led.on()
 		httpconnect("vol")
 	else:
